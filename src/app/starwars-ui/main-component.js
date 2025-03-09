@@ -5,7 +5,8 @@ import { Error } from "./error";
 import { Loading } from "./loading";
 import { StarwarsData } from "./starwars-data";
 import { useEffect, useState } from "react";
-import { getInfo } from "../starwars-api/client"
+import { getInfo } from "../starwars-api/client";
+
 export function Main() {
     //инициализация всех дочерних компонентов
     const [allepisodes, setEpisodes] = useState(null);

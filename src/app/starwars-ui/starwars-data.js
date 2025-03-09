@@ -3,8 +3,8 @@
 import styles from "../page.module.css"
 import React from "react";
 import { Element } from "./element";
-export function StarwarsData(props) {
 
+export function StarwarsData(props) {
   let data=[]
   if(props.data!=null){
     data=props.data
